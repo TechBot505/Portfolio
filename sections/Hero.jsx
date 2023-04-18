@@ -33,7 +33,7 @@ const Hero = () => {
           </motion.div>
           <motion.h1
             variants={textVariant(1.1)}
-            className={`${styles.heroHeading}`}
+            className={`${styles.heroHeading1}`}
           >
             <Typewriter
               options={{

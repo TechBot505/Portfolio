@@ -3,12 +3,12 @@
 import React from 'react';
 
 import { motion } from 'framer-motion';
-import { slideIn2 } from '../utils/motion';
+import { slideIn } from '../utils/motion';
 
 const Skill = ({ link }) => (
   <div className="group relative flex cursor-pointer">
     <motion.img
-      variants={slideIn2('left', 'spring', 0.25, 0.8)}
+      variants={slideIn('left', 'spring', 0.25, 0.8)}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}

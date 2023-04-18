@@ -6,8 +6,7 @@ import styles from "../styles";
 import { staggerContainer } from '../utils/motion';
 import { TypingText, TitleText } from '../components';
 import Skill from "../components/Skill";
-import Skill2 from "../components/Skill2";
-import { skills1, skills2 } from "../constants";
+import { skills } from "../constants";
 
 const World = () => (
   <section id="skills" className={`${styles.paddings}`}>
@@ -20,15 +19,9 @@ const World = () => (
     >
       <TypingText title="| My Skills" textStyles="text-center" />
       <TitleText title="What I Can Do" textStyles="text-center" />
-      <div className="mt-[50px] grid grid-cols-4 gap-5">
-        {skills1.map((skill) => (
+      <div className="mt-[50px] grid grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-5">
+        {skills.map((skill) => (
           <Skill
-            key={skill.id}
-            link={skill.url}
-          />
-        ))}
-        {skills2.map((skill) => (
-          <Skill2
             key={skill.id}
             link={skill.url}
           />

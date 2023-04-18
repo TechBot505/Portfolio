@@ -75,7 +75,7 @@ export const insights = [
   },
 ];
 
-export const skills1 = [
+export const skills = [
   {
     id: 1,
     url: 'https://media.licdn.com/dms/image/C5622AQEaSzZNrNFgUQ/feedshare-shrink_800/0/1678383920919?e=1684368000&v=beta&t=Sv6Wst6G8KhdKWURNRSlM0FqAxNL2HfUNRMKsqkoLow'
@@ -107,10 +107,7 @@ export const skills1 = [
   {
     id: 8,
     url: 'https://icon-library.com/images/html5-icon/html5-icon-13.jpg'
-  }
-];
-
-export const skills2 = [
+  },
   {
     id: 9,
     url: 'https://cdn.worldvectorlogo.com/logos/javascript-1.svg'
