@@ -5,10 +5,10 @@ import { motion } from "framer-motion";
 import styles from "../styles";
 import { fadeIn } from "../utils/motion";
 
-const InsightCard = ({imgUrl, title, subtitle, index, gitUrl, techStack}) => (
+const InsightCard = ({ imgUrl, title, subtitle, index, gitUrl, techStack }) => (
   <div>
     <motion.div
-      variants={fadeIn('up', 'spring', index*0.5, 1)}
+      variants={fadeIn('up', 'spring', index * 0.5, 1)}
       className="flex md:flex-row flex-col gap-4"
     >
       <Link href={gitUrl}><img src={imgUrl} alt="planet-01" className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover" /></Link>
@@ -19,7 +19,7 @@ const InsightCard = ({imgUrl, title, subtitle, index, gitUrl, techStack}) => (
           <p className="mt-[16px] font-normal lg:text-[18px] text-[12px] text-[#94a3b8]">{techStack}</p>
         </div>
         <div className="lg:flex hidden items-center justify-center h-[100px] w-[100px] rounded-full bg-transparent border-[1px] border-white">
-          <Link href={gitUrl} className="w-[40%] h-[40%] mt-[10px] ml-[5px] object-contain"><img src="/arrow.svg" alt="arrow"  /></Link>
+          <Link href={gitUrl} className="w-[40%] h-[40%] mt-[10px] ml-[5px] object-contain"><img src="/arrow.svg" alt="arrow" /></Link>
         </div>
       </div>
     </motion.div>

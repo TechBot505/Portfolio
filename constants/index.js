@@ -38,13 +38,13 @@ export const newFeatures = [
     imgUrl: '/vrpano.svg',
     title: 'A new world',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+      'we have the latest update with new world for you to try never mind',
   },
   {
     imgUrl: '/headset.svg',
     title: 'More realistic',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+      'In the latest update, your eyes are narrow, making the world more realistic than ever',
   },
 ];
 
@@ -55,7 +55,7 @@ export const insights = [
     gitUrl: 'https://github.com/kr-2003/IITISOC_OnlineGamesWebsite',
     techStack: 'NodeJs  |  ExpressJs  |  MongoDb  |  Socket.IO',
     subtitle:
-        'An online multiplayer gaming website, hosts 4 games for entertainment.',
+      'An online multiplayer gaming website, hosts 4 games for entertainment.',
   },
   {
     imgUrl: '/planet-07.png',
@@ -63,7 +63,7 @@ export const insights = [
     gitUrl: 'https://github.com/TechBot505/Jarvis',
     techStack: 'ReactJs  |  NodeJs  |  Socket.IO  |  MongoDb  |  Google Cloud Run',
     subtitle:
-        'A realtime chat application where user can chat with their freinds.',
+      'A realtime chat application where user can chat with their freinds.',
   },
   {
     imgUrl: '/planet-08.png',
@@ -71,7 +71,7 @@ export const insights = [
     gitUrl: 'https://github.com/kr-2003/enosium_track_1',
     techStack: 'Next-Js  |  Python',
     subtitle:
-        'Predicts the loan eligibility of a defaulter on the basis of information provided by user.',
+      'Predicts the loan eligibility of a defaulter on the basis of information provided by user.',
   },
 ];
 
@@ -102,7 +102,7 @@ export const skills1 = [
   },
   {
     id: 7,
-    url : 'https://img.icons8.com/color/512/firebase.png'
+    url: 'https://img.icons8.com/color/512/firebase.png'
   },
   {
     id: 8,

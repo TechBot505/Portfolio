@@ -13,7 +13,7 @@ const Footer = () => (
     whileInView="show"
     className={`${styles.paddings} py-8 relative`}
   >
-    <div className="footer-gradient"/>
+    <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
         {/* <div className="flex items-center justify-between flex-wrap"> */}
@@ -32,7 +32,7 @@ const Footer = () => (
           <p className="font-normal text-[14px] text-white opacity-50">Copyright @ 2023 Robin. All rights reserved.</p>
           <div className="flex gap-4">
             {socials.map((social) => (
-              <a href={social.link}><img key={social.name} alt={social.name} src={social.url}  className="w-[24px] h-[24px] object-contain cursor-pointer"/></a>
+              <a href={social.link}><img key={social.name} alt={social.name} src={social.url} className="w-[24px] h-[24px] object-contain cursor-pointer" /></a>
             ))}
           </div>
         </div>
