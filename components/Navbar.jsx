@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 
@@ -11,8 +11,7 @@ const Navbar = () => (
     whileInView="show"
     className={`${styles.xPaddings} py-8 relative`}
   >
-    <div className="absolute w-[50%] inset-0 gradient-01">
-    </div>
+    <div className="absolute w-[50%] inset-0 gradient-01" />
     <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
       <img src="/search.svg" className="w-[24px] h-[24px] object-contain" alt="search" />
       <h2 className="font-extrabold text-[24px] leading-[30px] text-white">Robin</h2>

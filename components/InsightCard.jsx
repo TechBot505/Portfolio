@@ -1,9 +1,9 @@
 'use client';
-import Link from "next/link";
 
-import { motion } from "framer-motion";
-import styles from "../styles";
-import { fadeIn } from "../utils/motion";
+import Link from 'next/link';
+
+import { motion } from 'framer-motion';
+import { fadeIn } from '../utils/motion';
 
 const InsightCard = ({ imgUrl, title, subtitle, index, gitUrl, techStack }) => (
   <div>
