@@ -66,6 +66,14 @@ export const insights = [
       'A realtime chat application where user can chat with their freinds.',
   },
   {
+    imgUrl: '/planet-02.png',
+    title: 'AI Voice Assistant: Robin',
+    gitUrl: 'https://github.com/TechBot505/AI-Robin.git',
+    techStack: 'React-Js  |  Open AI | Eleven Labs | FastApi',
+    subtitle:
+      "Robin is an AI-powered voice assistant. With Robin, you can interact with your applications and devices using natural language voice commands.",
+  },
+  {
     imgUrl: '/planet-08.png',
     title: 'The Legendary Predictor',
     gitUrl: 'https://github.com/kr-2003/enosium_track_1',
@@ -78,7 +86,7 @@ export const insights = [
 export const skills = [
   {
     id: 1,
-    url: 'https://media.licdn.com/dms/image/C5622AQEaSzZNrNFgUQ/feedshare-shrink_800/0/1678383920919?e=1684368000&v=beta&t=Sv6Wst6G8KhdKWURNRSlM0FqAxNL2HfUNRMKsqkoLow'
+    url: 'https://img-c.udemycdn.com/course/480x270/3469904_8280.jpg'
   },
   {
     id: 2,

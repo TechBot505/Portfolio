@@ -3,8 +3,8 @@ import About from './About';
 import Explore from './Explore';
 import GetStarted from './GetStarted';
 import WhatsNew from './WhatsNew';
-import World from './World';
-import Insights from './Insights';
+import Skills from './Skills';
+import Projects from './Projects';
 import Feedback from './Feedback';
 
 export {
@@ -13,7 +13,7 @@ export {
   Explore,
   GetStarted,
   WhatsNew,
-  World,
-  Insights,
+  Skills,
+  Projects,
   Feedback,
 };

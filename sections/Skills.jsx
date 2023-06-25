@@ -8,7 +8,7 @@ import { TypingText, TitleText } from '../components';
 import Skill from "../components/Skill";
 import { skills } from "../constants";
 
-const World = () => (
+const Skills = () => (
   <section id="skills" className={`${styles.paddings}`}>
     <motion.div
       variants={staggerContainer}
@@ -31,4 +31,4 @@ const World = () => (
   </section>
 )
 
-export default World;
+export default Skills;
