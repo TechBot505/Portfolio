@@ -75,11 +75,11 @@ export const insights = [
   },
   {
     imgUrl: '/planet-08.png',
-    title: 'The Legendary Predictor',
-    gitUrl: 'https://github.com/kr-2003/enosium_track_1',
-    techStack: 'Next-Js  |  Python',
+    title: 'ChapGPT Chrome Extension',
+    gitUrl: 'https://github.com/TechBot505/ChatGPT-Chrome-Extension',
+    techStack: 'React-Js  |  ManifestJs',
     subtitle:
-      'Predicts the loan eligibility of a defaulter on the basis of information provided by user.',
+      "A chrome extension of Turbo-3.5 GPT model to simplify user's work.",
   },
 ];
 
