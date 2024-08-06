@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from "framer-motion";
-import styles from '../styles'
+import { motion } from 'framer-motion';
+import styles from '../styles';
 
 import { staggerContainer } from '../utils/motion';
 import { TypingText, InsightCard, TitleText } from '../components';
@@ -16,8 +16,8 @@ const Projects = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title="| Projects" textStyles="text-center" />
-      <TitleText title="Some things I've built" textStyles="text-center" />
+      <TypingText title="| Experiences" textStyles="text-center" />
+      <TitleText title="The Experiences I have earned" textStyles="text-center" />
       <div className="mt-[50px] flex flex-col gap-[30px]">
         {insights.map((insight, index) => (
           <InsightCard
