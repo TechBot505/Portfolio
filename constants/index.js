@@ -67,7 +67,7 @@ export const insights = [
   {
     imgUrl: 'https://qph.cf2.quoracdn.net/main-qimg-b4033069766730e15e200c95e785ee8e',
     title: 'Amazon: SDE Internship',
-    gitUrl: 'https://github.com/kr-2003/IITISOC_OnlineGamesWebsite',
+    gitUrl: 'https://drive.google.com/file/d/1IV3eZjHOoI85dRNNKP3cI83clcwt-pns/view?usp=sharing',
     techStack: 'On-Site | Hyderabad | May 2024- July 2024',
     subtitle:
       'Worked as a Software Development Engineer Intern at Amazon in the WW Returns and Recomm Tech & In Team.',
@@ -75,7 +75,7 @@ export const insights = [
   {
     imgUrl: '/gdsc.png',
     title: 'Google Developer Students Club Lead',
-    gitUrl: 'https://github.com/TechBot505/Jarvis',
+    gitUrl: 'https://drive.google.com/file/d/14ZCs27nVJ0YPHDSJyKrjoNT-fdrkw-gM/view?usp=sharing',
     techStack: 'IIT Indore | 2023 - 2024',
     subtitle:
       'Served as the GDSC Lead, leading 5 domains: Web Development, App Development, Machine Learning, Game Development and Blockchain.',
