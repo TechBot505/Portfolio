@@ -10,10 +10,10 @@ export const exploreWorlds = [
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    stacks: 'NextJs | TailwindCSS | MetaGPT | Langchain | Pinecone',
-    title: 'TruConnect',
-    description: 'Transformative Community Engagement Platform for students to connect with industry professionals and alumni, leverages AI to personalize recommendations, offer real-time support, and facilitate seamless collaboration.',
-    link: 'https://github.com/TechBot505/TruConnect',
+    stacks: 'NextJs | Gemini API | Razorpay | Clerk | Drizzle | Postgresql | TailwindCSS | Shadcn',
+    title: 'InspireAI',
+    description: 'Inspire AI is a modern content generation platform designed to revolutionize how you create content. Leveraging advanced AI capabilities, Inspire AI offers over 50+ customizable templates tailored to meet all your content needs.',
+    link: 'https://github.com/TechBot505/InspireAI',
   },
   {
     id: 'world-3',
@@ -26,18 +26,18 @@ export const exploreWorlds = [
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
-    stacks: 'Crew AI | Streamlit | Langchain | Python',
-    title: 'ML Assistant',
-    description: 'The InfinitAI Machine Learning Assistant is designed to guide users through the process of defining, assessing, and solving Machine Learning problems, leveraging the CrewAI library.',
-    link: 'https://github.com/TechBot505/CrewAI-Assistant',
+    stacks: 'NextJS | Inngest | PostgreSQL | Prisma | TailwindCSS | Shadcn | Gemini API | Clerk',
+    title: 'PrepXpert',
+    description: 'PrepXpert – Master Every Interview. Land Your Dream Job.',
+    link: 'https://github.com/TechBot505/PrepXpert',
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
-    stacks: 'Groq | Streamlit | ChromaDB | Python | Gemini',
-    title: 'Groq PDF Chatbot',
-    description: 'This Application allows users to chat with multiple PDF files and ask questions related to the content of those PDF files.',
-    link: 'https://github.com/TechBot505/Groq-PDF-Chat',
+    stacks: 'NextJs | Gemini API | FastAPI | Clerk | Langchain | Pinecone | Groq | TailwindCSS',
+    title: 'Doom AI',
+    description: 'An intelligent chat platform that allows users to interact with both PDF files and MySQL databases using natural language. The system leverages advanced AI models to interpret user queries and provide meaningful responses based on the provided documents or database.',
+    link: 'https://github.com/TechBot505/Doom-AI',
   },
 ];
 
