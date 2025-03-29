@@ -1,6 +1,6 @@
 const Head = () => (
   <>
-    <title>Robin</title>
+    <title>Portfolio - Rohit Dhanotia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/favicon.ico" />
   </>
